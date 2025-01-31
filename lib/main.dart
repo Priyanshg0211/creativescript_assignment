@@ -1,3 +1,4 @@
+import 'package:creative_scriptassignment/homescreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,11 +11,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
+      title: 'CreativeScript_Assignment',
+      debugShowCheckedModeBanner: false,
+      home: Homescreen(),
     );
   }
 }
